@@ -1,0 +1,220 @@
+fileFormatVersion: 2
+guid: 7950d12957613c649a3972fc11aebcc0
+timeCreated: 1462085837
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: spaceShip3 clone (1)_0
+    21300002: spaceShip3 clone (1)_1
+    21300004: spaceShip3 clone (1)_2
+    21300006: spaceShip3 clone (1)_3
+    21300008: spaceShip3 clone (1)_4
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: spaceShip3 clone (1)_0
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 268
+        width: 763
+        height: 772
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 78.88, y: -123.240005}
+        - {x: 117.88, y: -101.240005}
+        - {x: 123.88, y: -92.240005}
+        - {x: 123.88, y: -16.240005}
+        - {x: 102.88, y: -4.2400055}
+        - {x: 123.88, y: 29.759995}
+        - {x: 123.88, y: 100.759995}
+        - {x: 117.88, y: 111.759995}
+        - {x: 86.88, y: 124.759995}
+        - {x: -71.12, y: 124.759995}
+        - {x: -122.12, y: 109.759995}
+        - {x: -122.12, y: 24.759995}
+        - {x: -101.12, y: 13.7599945}
+        - {x: -122.12, y: -21.240005}
+        - {x: -122.12, y: -102.240005}
+        - {x: -73.12, y: -123.240005}
+        - {x: -43.120003, y: -123.240005}
+        - {x: -20.120003, y: -104.240005}
+        - {x: 44.879997, y: -105.240005}
+        - {x: 51.879997, y: -123.240005}
+    - name: spaceShip3 clone (1)_1
+      rect:
+        serializedVersion: 2
+        x: 1541
+        y: 219
+        width: 759
+        height: 821
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 121.619995, y: -88.42}
+        - {x: 121.619995, y: -6.419998}
+        - {x: 102.619995, y: 23.580002}
+        - {x: 121.619995, y: 29.580002}
+        - {x: 121.619995, y: 126.58}
+        - {x: 87.619995, y: 131.58}
+        - {x: 19.619995, y: 131.58}
+        - {x: 6.619995, y: 126.58}
+        - {x: -19.380005, y: 131.58}
+        - {x: -75.380005, y: 131.58}
+        - {x: -121.380005, y: 113.58}
+        - {x: -121.380005, y: 30.580002}
+        - {x: -103.380005, y: -0.41999817}
+        - {x: -121.380005, y: -9.419998}
+        - {x: -121.380005, y: -85.42}
+        - {x: -117.380005, y: -94.42}
+        - {x: -83.380005, y: -105.42}
+        - {x: -73.380005, y: -131.42}
+        - {x: -54.380005, y: -131.42}
+        - {x: -40.380005, y: -100.42}
+        - {x: 53.619995, y: -131.42}
+        - {x: 74.619995, y: -131.42}
+    - name: spaceShip3 clone (1)_2
+      rect:
+        serializedVersion: 2
+        x: 2819
+        y: 209
+        width: 762
+        height: 831
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 50.079956, y: -122.619995}
+        - {x: 55.079956, y: -132.62}
+        - {x: 67.079956, y: -132.62}
+        - {x: 79.079956, y: -123.619995}
+        - {x: 100.079956, y: -91.619995}
+        - {x: 118.079956, y: -88.619995}
+        - {x: 122.079956, y: -86.619995}
+        - {x: 122.079956, y: 116.380005}
+        - {x: 79.079956, y: 134.38}
+        - {x: 16.079956, y: 134.38}
+        - {x: 8.079956, y: 133.38}
+        - {x: 0.079956055, y: 134.38}
+        - {x: -82.920044, y: 134.38}
+        - {x: -121.920044, y: 117.380005}
+        - {x: -121.920044, y: -91.619995}
+        - {x: -73.920044, y: -122.619995}
+        - {x: -67.920044, y: -132.62}
+        - {x: -57.920044, y: -132.62}
+        - {x: -52.920044, y: -130.62}
+        - {x: -41.920044, y: -95.619995}
+        - {x: 9.079956, y: -93.619995}
+        - {x: 44.079956, y: -95.619995}
+    - name: spaceShip3 clone (1)_3
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 190
+        width: 759
+        height: 850
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.5, y: -135.7}
+        - {x: 72.5, y: -134.7}
+        - {x: 78.5, y: -119.7}
+        - {x: 121.5, y: -83.7}
+        - {x: 121.5, y: 123.3}
+        - {x: 102.5, y: 137.3}
+        - {x: 38.5, y: 137.3}
+        - {x: 6.5, y: 133.3}
+        - {x: -12.5, y: 133.3}
+        - {x: -38.5, y: 137.3}
+        - {x: -69.5, y: 137.3}
+        - {x: -72.5, y: 134.3}
+        - {x: -121.5, y: 119.3}
+        - {x: -121.5, y: -89.7}
+        - {x: -120.5, y: -96.7}
+        - {x: -73.5, y: -135.7}
+        - {x: -32.5, y: -135.7}
+        - {x: 43.5, y: -90.7}
+        - {x: 51.5, y: -129.7}
+        - {x: 56.5, y: -135.7}
+    - name: spaceShip3 clone (1)_4
+      rect:
+        serializedVersion: 2
+        x: 5378
+        y: 178
+        width: 763
+        height: 862
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 69.95996, y: -137.54001}
+        - {x: 86.95996, y: -123.54001}
+        - {x: 85.95996, y: -91.54001}
+        - {x: 123.95996, y: -82.54001}
+        - {x: 123.95996, y: -3.5400085}
+        - {x: 102.95996, y: 10.459991}
+        - {x: 123.95996, y: 34.45999}
+        - {x: 123.95996, y: 125.45999}
+        - {x: 120.95996, y: 130.45999}
+        - {x: 78.95996, y: 139.45999}
+        - {x: -74.04004, y: 139.45999}
+        - {x: -122.04004, y: 132.45999}
+        - {x: -122.04004, y: -81.54001}
+        - {x: -116.04004, y: -87.54001}
+        - {x: -69.04004, y: -137.54001}
+        - {x: -52.04004, y: -137.54001}
+        - {x: -36.04004, y: -96.54001}
+        - {x: 17.95996, y: -89.54001}
+        - {x: 50.95996, y: -137.54001}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
