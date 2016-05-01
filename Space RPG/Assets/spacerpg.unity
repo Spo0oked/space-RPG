@@ -104,7 +104,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!50 &22084827
 Rigidbody2D:
   serializedVersion: 2
@@ -342,7 +342,7 @@ MonoBehaviour:
   minDistance: 0
   followDistance: 0
   follow: 10
-  target: {fileID: 22084826}
+  target: {fileID: 1111183579}
   offset: {x: 0, y: 0, z: 0}
 --- !u!1 &999137709
 GameObject:
@@ -402,7 +402,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
-<<<<<<< HEAD
 --- !u!1 &1111183579
 GameObject:
   m_ObjectHideFlags: 0
@@ -413,6 +412,9 @@ GameObject:
   - 4: {fileID: 1111183582}
   - 212: {fileID: 1111183581}
   - 68: {fileID: 1111183580}
+  - 50: {fileID: 1111183584}
+  - 114: {fileID: 1111183583}
+  - 95: {fileID: 1111183585}
   m_Layer: 0
   m_Name: tankShip
   m_TagString: tank
@@ -544,6 +546,55 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
+--- !u!114 &1111183583
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111183579}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c55f96930292a1c4dafecaf3741a784a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 0}
+  speed: 7.5
+  speedFector: 1
+  startRotationOffset: 270
+--- !u!50 &1111183584
+Rigidbody2D:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111183579}
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 1
+  m_AngularDrag: 0.8
+  m_GravityScale: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!95 &1111183585
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1111183579}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 0ec2186f844d0dd4697fb1342df9a39e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
 --- !u!1 &1858298166
 GameObject:
   m_ObjectHideFlags: 0
@@ -620,5 +671,3 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
-=======
->>>>>>> 920c22d59590d063952abf7cc87ed233cf3a3575
