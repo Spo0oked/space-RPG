@@ -28,8 +28,13 @@ public class Ship2Move : MonoBehaviour {
 		float boost = speed * 2;
 		rb.AddForce (gameObject.transform.up * speed * Vinput); //adding mocement for up/down
 
-		if (Input.GetKey (KeyCode.LeftShift)) {
-			rb.AddForce (gameObject.transform.up * boost * Vinput); //raising spped for a sprint function
+		if (Input.GetKey (KeyCode.LeftShift)) 
+		{
+			rb.AddForce (gameObject.transform.up * boost * Vinput); //raising speed for a sprint function
+		}
+		if (Input.GetKey ("b")) 
+		{
+			anim.SetBool ("boost", true);
 		}
 	
 		mousePositionInWorld = Camera.main.ScreenToWorldPoint (Input.mousePosition); //geting mouse pos
@@ -37,14 +42,22 @@ public class Ship2Move : MonoBehaviour {
 
 		transform.rotation = Quaternion.Lerp (transform.rotation, Quaternion.Euler(0, 0, angle+startRotationOffset),speedFector * Time.deltaTime); //rotating ship
 
-		if (!pressed && Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) { //checking if w or up is pressed and shift is not
-			anim.SetBool ("reg", true);
-			anim.SetBool ("idle", false);
-			anim.SetBool ("boost", false);
-		} else if (!Input.GetKey (KeyCode.W) || !Input.GetKey (KeyCode.UpArrow) && !pressed) {
+		if (Input.GetKey (KeyCode.W) || Input.GetKey (KeyCode.UpArrow)) 
+		{ //checking if w or up is pressed and shift is not
+			if (Input.GetKey (KeyCode.LeftShift)) 
+			{
+				anim.SetBool ("boost", true);
+				anim.SetBool ("reg", false);
+			} 
+			else 
+			{
+				anim.SetBool ("boost", false);
+				anim.SetBool ("reg", true);
+			}
+		} else if (!Input.GetKey (KeyCode.W) || !Input.GetKey (KeyCode.UpArrow)) 
+		{
 			anim.SetBool ("reg", false);
-			anim.SetBool ("idle", true);
 			anim.SetBool ("boost", false);
-		}
+		} 
 	}
 }
