@@ -1,0 +1,207 @@
+fileFormatVersion: 2
+guid: 7c1a98447f9989142aaafe57ddb6d248
+timeCreated: 1459731956
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: space ship 2 sprite sheet_0
+    21300002: space ship 2 sprite sheet_1
+    21300004: space ship 2 sprite sheet_2
+    21300006: space ship 2 sprite sheet_3
+    21300008: space ship 2 sprite sheet_4
+    21300010: space ship 2 sprite sheet_5
+    21300012: space ship 2 sprite sheet_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 8192
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: space ship 2 sprite sheet_0
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 90
+        width: 438
+        height: 697
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16.448975, y: 106.38776}
+        - {x: 7.4489746, y: 114.38776}
+        - {x: -13.551025, y: 114.38776}
+        - {x: -71.551025, y: -17.612244}
+        - {x: -71.551025, y: -71.61224}
+        - {x: -66.551025, y: -83.61224}
+        - {x: -47.551025, y: -113.61224}
+        - {x: 63.448975, y: -113.61224}
+        - {x: 72.448975, y: -102.61224}
+        - {x: 72.448975, y: -32.612244}
+        - {x: 56.448975, y: 6.3877563}
+    - name: space ship 2 sprite sheet_1
+      rect:
+        serializedVersion: 2
+        x: 1125
+        y: 75
+        width: 438
+        height: 712
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -16.653076, y: 116.98979}
+        - {x: -71.653076, y: -37.01021}
+        - {x: -71.653076, y: -89.01021}
+        - {x: -54.653076, y: -116.01021}
+        - {x: 69.346924, y: -116.01021}
+        - {x: 72.346924, y: -100.01021}
+        - {x: 72.346924, y: -6.010208}
+        - {x: 16.346924, y: 116.98979}
+    - name: space ship 2 sprite sheet_2
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 81
+        width: 438
+        height: 706
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9.408203, y: 115.948975}
+        - {x: -71.4082, y: -24.051025}
+        - {x: -71.4082, y: -69.051025}
+        - {x: -56.408203, y: -115.051025}
+        - {x: 72.5918, y: -115.051025}
+        - {x: 72.5918, y: 52.948975}
+        - {x: 6.591797, y: 115.948975}
+    - name: space ship 2 sprite sheet_3
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 81
+        width: 438
+        height: 706
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -13.510254, y: 115.948975}
+        - {x: -19.510254, y: 110.948975}
+        - {x: -71.510254, y: 53.948975}
+        - {x: -71.510254, y: -115.051025}
+        - {x: 59.489746, y: -115.051025}
+        - {x: 72.489746, y: -96.051025}
+        - {x: 72.489746, y: -12.051025}
+        - {x: 19.489746, y: 115.948975}
+    - name: space ship 2 sprite sheet_4
+      rect:
+        serializedVersion: 2
+        x: 3814
+        y: 0
+        width: 438
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -19.612305, y: 128.5}
+        - {x: -71.612305, y: -8.5}
+        - {x: -71.612305, y: -87.5}
+        - {x: -34.612305, y: -128.5}
+        - {x: 44.387695, y: -128.5}
+        - {x: 72.387695, y: -115.5}
+        - {x: 72.387695, y: 27.5}
+        - {x: 17.387695, y: 128.5}
+    - name: space ship 2 sprite sheet_5
+      rect:
+        serializedVersion: 2
+        x: 4709
+        y: 0
+        width: 438
+        height: 787
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.63257, y: -66.5}
+        - {x: 72.63257, y: -63.5}
+        - {x: 72.63257, y: -10.5}
+        - {x: 12.632568, y: 125.5}
+        - {x: 9.632568, y: 128.5}
+        - {x: -12.367432, y: 128.5}
+        - {x: -66.36743, y: 3.5}
+        - {x: -71.36743, y: -10.5}
+        - {x: -71.36743, y: -83.5}
+        - {x: -62.36743, y: -107.5}
+        - {x: -5.3674316, y: -128.5}
+        - {x: 26.632568, y: -128.5}
+        - {x: 48.63257, y: -102.5}
+        - {x: 55.63257, y: -78.5}
+        - {x: 38.63257, y: -66.5}
+    - name: space ship 2 sprite sheet_6
+      rect:
+        serializedVersion: 2
+        x: 5606
+        y: 20
+        width: 438
+        height: 767
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -12.469482, y: 126.03061}
+        - {x: -13.469482, y: 125.03061}
+        - {x: -71.46948, y: 6.030609}
+        - {x: -71.46948, y: -96.96939}
+        - {x: -65.46948, y: -124.96939}
+        - {x: 65.53052, y: -124.96939}
+        - {x: 72.53052, y: -107.96939}
+        - {x: 72.53052, y: -19.96939}
+        - {x: 13.530518, y: 126.03061}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
