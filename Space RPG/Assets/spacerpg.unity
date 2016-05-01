@@ -402,6 +402,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+<<<<<<< HEAD
 --- !u!1 &1111183579
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,3 +620,5 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
+=======
+>>>>>>> 920c22d59590d063952abf7cc87ed233cf3a3575
